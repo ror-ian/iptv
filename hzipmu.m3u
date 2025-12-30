@@ -1,4 +1,5 @@
 #EXTM3U x-tvg-url="https://myepg.org/Zhejiang_Telecom_IPTV/EPG/hz_uni_epg.xml.gz"
+#EXTM3U catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://myepg.org/Zhejiang_Telecom_IPTV/Logo/CCTV1.png" group-title="央视",CCTV1综合
 http://192.168.10.199:7088/rtsp/115.233.41.137/PLTV/88888913/224/3221228078/10000100000000060000000002460690_0.smil
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://myepg.org/Zhejiang_Telecom_IPTV/Logo/CCTV2.png" group-title="央视",CCTV2财经
